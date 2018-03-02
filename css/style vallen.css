@@ -1,0 +1,117 @@
+
+
+html{
+	position: relative;
+}
+
+body{
+	font: 20px/26px arial, sans-serif;
+	background-color: #f2f2f2;
+	margin-top: 30px;
+}
+
+.container-fluid {
+    background-color: #000;
+    border-color: #ff0000;
+}
+
+.hero-text {
+	font-size: 25px;
+	margin-top: 20px;
+}
+
+.h1 {
+	color: black;
+}
+
+
+.jumbotron {
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	background-size: cover;
+}
+
+
+
+
+.jumbotron img{
+	width: 200px;
+	border:5px solid #666;
+}
+
+
+.item-active {
+	height: 100%;
+}
+
+
+.location {
+	background-color: #eaeaea;
+}
+
+h1 {
+	font-size: 40px;
+	margin-bottom: 200px;
+}
+
+
+
+
+hr{
+	width: 250px;
+	border-top: 3px solid #999;
+}
+
+section {
+	min-height: 600px;
+}
+
+
+.about {
+	background-color: #e6ccb3;
+	font-size: 22px;x
+}
+
+.location {
+	background-color: #d9d9d9;
+}
+
+.sistem {
+	background-color: #9999ff;
+	font-size: 23px;
+}
+
+.ekstrakulikuler {
+	background-color: #d9d9d9;
+	font-size: 25px;
+}
+
+.gallery {
+	background-color: #9999ff;
+}
+
+.comment {
+	background-color: #f2f2f2;
+}
+
+.contact a{
+	margin-right: 2000px;
+}
+
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 175px;
+	background-color: #f2f2f2;
+
+}
+
+.col-sm-12 {
+	font-size: 70px;
+
+}
+
