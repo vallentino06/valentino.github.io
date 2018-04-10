@@ -5,7 +5,7 @@ body, html {
 /* The hero image */
 .hero-image {
     /* The image used */
-    background-image: url("bulshit.jpg");
+    background-image: url("smk-1 copy.png");
 
     /* Set a specific height */
     height: 50%;
@@ -13,8 +13,10 @@ body, html {
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 70vw;
+    background-color: #d8d8d8;
     position: relative;
+    padding-top: 100px;
 }
 
 /* Place text in the middle of the image */
@@ -24,11 +26,9 @@ h3 {
    color: white;
    text-shadow:
 
-   -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
-   
+    1px -1px 0 #000,
+   -1px -1px 0 #000;
+     
 }
 
 h1 {
@@ -45,13 +45,38 @@ h1 {
 
 h4 {
    -webkit-text-stroke: 0px white;
-   color: #0000e6;
+   color: #ff0000;
    text-shadow:
        
      -1px -1px 0 #fff,  
       1px -1px 0 #fff,
       -1px 1px 0 #fff,
        1px 1px 0 #fff;
+}
+
+
+p {
+   -webkit-text-stroke: 0px black;
+   color: white;
+   text-shadow:
+
+   -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+   
+}
+
+h5 {
+   -webkit-text-stroke: 0px black;
+   color: white;
+   text-shadow:
+
+   -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+   
 }
 
 
@@ -67,6 +92,19 @@ h4 {
 }
 
 .centered {
+   -webkit-text-stroke: 0px black;
+   color: white;
+   text-shadow:
+
+   -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+   
+}
+
+
+.komentar {
    -webkit-text-stroke: 0px black;
    color: white;
    text-shadow:

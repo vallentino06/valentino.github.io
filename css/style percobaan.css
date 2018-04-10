@@ -1,144 +1,204 @@
 
 
-html{
-	position: relative;
-}
+	html{
+		position: relative;
+	}
 
-body{
-	font: 20px/26px arial, sans-serif;
-	background-color: #f2f2f2;
-	margin-top: 30px;
-}
+	body{
+		font: 20px/26px arial, sans-serif;
+		background-color: #2a2a2a;
+		margin-top: 30px;
+	}
 
-.container-fluid {
-    background-color: #000;
-    border-color: #ff0000;
-}
+	.container-fluid {
+	    background-color: #000;
+	    border-color: #ff0000;
+	}
 
-.hero-text {
-	font-size: 25px;
-	margin-top: 20px;
-}
+	.hero-text {
+		font-size: 25px;
+		margin-top: 20px;
+	}
 
-.h1 {
-	color: black;
-}
-
-
-.jumbotron {
-	width: 100%;
-	height: 100%;
-	left: 0px;
-	top: 0px;
-	background-size: cover;
-}
+	.h1 {
+		color: black;
+	}
 
 
+	.jumbotron {
+		width: 100%;
+		height: 100%;
+		left: 0px;
+		top: 0px;
+		background-size: cover;
+	}
 
 
-.jumbotron img{
-	width: 200px;
-	border:5px solid #666;
-}
 
 
-.item-active {
-	height: 100%;
-}
+	.jumbotron img{
+		width: 200px;
+		border:5px solid #666;
+	}
 
 
-.location {
-	background-color: #eaeaea;
-}
+	.item-active {
+		height: 100%;
+	}
 
- /* Container holding the image and the text */
-.container {
+
+	.location {
+		background-color: #eaeaea;
+	}
+
+	 /* Container holding the image and the text */
+	.container {
+	    position: relative;
+	    text-align: center;
+	    color: white;
+	}
+
+
+
+	/* Centered text */
+	.centered {
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	    font-size: 2vw;
+	    
+	} 
+
+
+	h2 {
+		color:#000;
+	}
+
+	h1{
+		font-size: 3vw;
+	}
+	 
+
+	h3 {
+		font-size: 2vw;
+		margin-bottom: 45px;
+		position: cover;	
+	}
+
+	h4 {
+		font-size: 4vw;
+		margin-top: 3	05px
+		color: #4d4dff;
+	}
+
+	h5 {
+		font-size: 2vw;
+	}
+
+	hr{
+		width: 250px;
+		border-top: 3px solid #000;
+	}
+
+	section {
+		min-height: 600px;
+	}
+
+
+	.misi {
+		border-top: 50px;
+	}
+
+	.about {
+		background-color: #d0d5d4;
+		
+	}
+
+	.location {
+		background-color: #d0d5d4;
+	}
+
+	.learning {
+		background-color: #fff;
+	}
+
+	.ekstrakulikuler {
+		background-color: #fff;
+		font-size: 25px;
+	}
+
+	.gallery {
+		background-color: #9999ff;
+	}
+
+	.comment {
+		background-color: #2a2a2a;
+	}
+
+	.mission {
+		background-color: #fff;
+	}
+
+	.contact a{
+		margin-right: 2000px;
+	}
+
+
+	
+	.col-sm-12 {
+		font-size: 70px;
+
+	}
+
+	
+	.footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 175px;
+		background-color: #000;
+
+	}
+
+	p {
+		color: black;
+		font-size: 2vw; 
+		padding-top: 100px;
+	}
+
+	.panel-footer {
+		color:#fff;
+		background-color: #000;
+	}
+
+	.form-group {
+		color:#fff;
+		text-align: left;
+	}
+
+	 {
+		position: left;
+	}
+
+
+
+	
+	/*container di about dkk*/
+	.container {
     position: relative;
-    text-align: center;
-    color: white;
+    max-width: 900px; /* Maximum width */
+    margin: 0 auto; /* Center it */
 }
 
-
-
-/* Centered text */
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-} 
-
-
-h2 {
-	color:#000;
-}
-
-
-h3 {
-	font-size: 30px;
-	margin-bottom: 45px;
-}
-
-h4 {
-	font-size: 50px;
-	margin-top: 25px;
-	color: #4d4dff;
-}
-
-hr{
-	width: 250px;
-	border-top: 3px solid #999;
-}
-
-section {
-	min-height: 600px;
-}
-
-
-.about {
-	background-color: #d9d9d9;
-	font-size: 22px; 
-}
-
-.location {
-	background-color: #d9d9d9;
-}
-
-.sistem {
-	background-color: #9999ff;
-	font-size: 23px;
-}
-
-.ekstrakulikuler {
-	background-color: #d9d9d9;
-	font-size: 25px;
-}
-
-.gallery {
-	background-color: #9999ff;
-}
-
-.comment {
-	background-color: #f2f2f2;
-}
-
-.contact a{
-	margin-right: 2000px;
-}
-
-
-.footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 175px;
-	background-color: #f2f2f2;
+.container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    color: #f1f1f1; /* Grey text */
+    width: 95%; /* Full width */
+    padding: 20px; /* Some padding */
 
 }
 
-.col-sm-12 {
-	font-size: 70px;
-
-}
+/*akhir container di about dkk*/
 

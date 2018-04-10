@@ -7,7 +7,7 @@ html{
 body{
 	font: 20px/26px arial, sans-serif;
 	background-image: url("img/darkness.png");
-	background-color: #a6a6a6;
+	background-color: #000;
 	margin-top: 30px;
 }
 
@@ -39,35 +39,75 @@ body{
 }
 
 
+h2 {
+	color: #000;
+}
 
 
 hr{
 	width: 250px;
-	border-top: 3px solid #999;
+	border-top: 3px solid #000;
 }
 
 section {
 	min-height: 600px;
 }
 
-.portfolio {
-	background-color: #c2c2a3;
+.about {
+	background-color: #fff;
+}
+
+.contact {
+	background-color: #2a2a2a;
+}
+
+.tkj {
+	background-color: #d0d5d4;
+}
+
+.akun {
+	background-color: #d0d5d4;
+}
+
+.geo {
+	background-color: #d0d5d4;
+}
+
+.kep {
+	background-color: #d0d5d4;
+}
+
+h2 {
+	color: black;
+}
+
+.row {
+	color: #000;
 }
 
 
 
+	.footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 175px;
+		
 
-.footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 75px;
-	background-color: #aeaeae;
+	}
+.panel-footer {
+		color:#fff;
+		background-color: #000;
+		text-align: center;
+	}
 
-}
+	.form-group {
+		color:#fff;
+		text-align: left;
+	}
 
-footer p {
-	color: #aaa; 
-	font-size: 1em;
-}
+	 {
+		position: left;
+	}
+
 
